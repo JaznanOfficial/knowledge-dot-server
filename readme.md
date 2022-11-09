@@ -25,6 +25,8 @@ A brief description of what this project does and who it's for
 /api/v1/users?email=abc@gmail.com
 ```
 
+#### which data you can provide
+
 | Property | Value     | Description                |
 | :-------- | :------- | :------------------------- |
 | `name` | `string` | **Required**. |
