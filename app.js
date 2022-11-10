@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 7000;
+const PORT = process.env.PORT || 5000;
 const cors = require("cors")
 const colors = require("colors");
 
@@ -8,11 +8,13 @@ app.use(cors())
 app.use(express.json())
 
 const usersRoute = require('./v1/Routes/users.route')
+const instructorsRoute = require('./v1/Routes/instructors.route')
 
 
 
 
 app.use('/api/v1/users',usersRoute)
+app.use('/api/v1/instructors',instructorsRoute)
 
 
 
