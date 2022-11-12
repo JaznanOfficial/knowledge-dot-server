@@ -1,0 +1,50 @@
+[
+    {
+      "rating": {
+        "total_rating": 23,
+        "total_people": 5
+      },
+      "_id": "636f81ed4d2b40d4d84a6297",
+      "name": "MERN Stack web development",
+      "trailer_video": "https://youtu.be/l1EssrLxt7E",
+      "thumb_img": "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000",
+      "instructor": "Abdur Rahman",
+      "level": "intermediate",
+      "price": 10000,
+      "description": "See-through delicate embroidered organza blue lining luxury acetate-mix stretch pleat detailing. Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket.",
+      "category": "web development",
+      "certificate_details": "Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean and sleek. Polished finish elegant court shoe work duty stretchy slingback strap mid kitten heel this ladylike design slingback strap mid kitten heel this ladylike design.",
+      "for_whom": "Anyone interested in learning about business (only practical concepts that you can use and no boring theory + we won’t cover business topics that are common sense).",
+      "video": [
+        "https://youtu.be/6AScfEUU_ME",
+        "https://youtu.be/Q33KBiDriJY"
+      ],
+      "createdAt": "2022-11-12T11:22:21.765Z",
+      "updatedAt": "2022-11-12T11:22:21.765Z",
+      "__v": 0
+    },
+    {
+      "rating": {
+        "total_rating": 20,
+        "total_people": 5
+      },
+      "_id": "636f8791f0d20e3bd8251bf7",
+      "name": "UI/UX Design",
+      "trailer_video": "https://youtu.be/l1EssrLxt7E",
+      "thumb_img": "https://img.freepik.com/free-vector/hand-drawn-web-developers_23-2148819604.jpg?w=2000",
+      "instructor": "Abdur Rahman",
+      "level": "beginner",
+      "price": 5000,
+      "description": "See-through delicate embroidered organza blue lining luxury acetate-mix stretch pleat detailing. Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket.",
+      "category": "web_design",
+      "certificate_details": "Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean and sleek. Polished finish elegant court shoe work duty stretchy slingback strap mid kitten heel this ladylike design slingback strap mid kitten heel this ladylike design.",
+      "for_whom": "Anyone interested in learning about business (only practical concepts that you can use and no boring theory + we won’t cover business topics that are common sense).",
+      "video": [
+        "https://youtu.be/6AScfEUU_ME",
+        "https://youtu.be/Q33KBiDriJY"
+      ],
+      "createdAt": "2022-11-12T11:46:25.568Z",
+      "updatedAt": "2022-11-12T11:46:25.568Z",
+      "__v": 0
+    }
+  ]

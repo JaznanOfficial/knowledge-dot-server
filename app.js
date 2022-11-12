@@ -9,12 +9,14 @@ app.use(express.json())
 
 const usersRoute = require('./v1/Routes/users.route')
 const instructorsRoute = require('./v1/Routes/instructors.route')
+const coursesRoute = require('./v1/Routes/courses.route')
 
 
 
 
 app.use('/api/v1/users',usersRoute)
 app.use('/api/v1/instructors',instructorsRoute)
+app.use('/api/v1/courses',coursesRoute)
 
 
 
