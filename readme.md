@@ -72,12 +72,12 @@
 #### get,post,put and delete all users
 
 ```http
-/api/v1/instructors
+/api/v1/courses
 ```
 
 * for get,put,delete with any query use query after this api. like this:
 ```http
-/api/v1/instructors?email=abc@gmail.com
+/api/v1/courses?email=abc@gmail.com
 ```
 
 #### which data you can provide
@@ -96,3 +96,5 @@
 | `video` | `array of object` | **that will accept string type video url**. |
 | `description` | `string` | **required**. |
 | `rating` | `object` | **it's contain 2 objects- "total_rating" and "total_people" - both are number type**. |
+
+<!-- courses api -->
