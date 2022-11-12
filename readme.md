@@ -67,7 +67,7 @@
 
 <!-- instructors api -->
 
-## instructors api
+## courses api
 
 #### get,post,put and delete all users
 
