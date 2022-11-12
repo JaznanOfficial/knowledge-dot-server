@@ -65,4 +65,34 @@
 | `professionLevel` | `string` | **must be one of these 3- junior,senior,expert**. |
 | `status` | `string` | **must be active or blocked**. |
 
+<!-- instructors api -->
 
+## instructors api
+
+#### get,post,put and delete all users
+
+```http
+/api/v1/instructors
+```
+
+* for get,put,delete with any query use query after this api. like this:
+```http
+/api/v1/instructors?email=abc@gmail.com
+```
+
+#### which data you can provide
+
+| Property | Value     | Description                |
+| :-------- | :------- | :------------------------- |
+| `name` | `string` | **Required**. |
+| `trailer_video` | `string` | **must be a video link**. |
+| `thumb_img` | `string` | **must be img link**. |
+| `instructor` | `string` | **Required**. |
+| `level` | `string` | **must be one of these 3- beginner,intermediate,expert**. |
+| `price` | `number` | **required**. |
+| `category` | `string` | **required**. |
+| `certificate_details` | `string` | **not required**. |
+| `for_whom` | `string` | **not required**. |
+| `video` | `array of object` | **that will accept string type video url**. |
+| `description` | `string` | **required**. |
+| `rating` | `object` | **it's contain 2 objects- "total_rating" and "total_people" - both are number type**. |
