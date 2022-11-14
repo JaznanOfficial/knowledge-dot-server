@@ -1,7 +1,7 @@
 const Users = require('../Models/users.model')
 
 const getUsersService = async (query) => {
-    const result = await Users.find(query);
+    const result = await Users.find(query).populate("enrolled");
     console.log(result);
     return result;
 };
