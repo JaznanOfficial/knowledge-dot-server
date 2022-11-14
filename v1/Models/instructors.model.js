@@ -40,6 +40,19 @@ const instructorsSchema = mongoose.Schema(
             maxLength: 14,
             minLength: 14,
         },
+        desc: {
+            type:String
+        },
+        teacherCategory: {
+            type: String,
+            enum: {
+                values: ["best", "normal"],
+                message: "{VALUE} is wrong. must be best/normal",
+            }
+        },
+        profession: {
+          type:String  
+        },
         professionLevel: {
             // required: true,
             type: String,
@@ -57,19 +70,19 @@ const instructorsSchema = mongoose.Schema(
             },
         },
         social_link: {
-            fb_link: {
+            instagram: {
                 type: String,
                 validate:[validator.isURL,"please provide an url"]
             },
-            github_link: {
+            facebook: {
                 type: String,
                 validate:[validator.isURL,"please provide an url"]
             },
-            twitter_link: {
+            twitter: {
                 type: String,
                 validate:[validator.isURL,"please provide an url"]
             },
-            linkedin_link: {
+            pinterest: {
                 type: String,
                 validate:[validator.isURL,"please provide an url"]
             },

@@ -64,6 +64,10 @@
 | `phone` | `string` | **must be a bangladesi phone number with country code +880. and total digit will be 14**. |
 | `professionLevel` | `string` | **must be one of these 3- junior,senior,expert**. |
 | `status` | `string` | **must be active or blocked**. |
+| `desc` | `string` | **not required**. |
+| `profession` | `string` | **not required. if use, then First letter must be uppercase**. |
+| `teacherCategory` | `string` | **must be normal or best**. |
+| `social_link` | `object` | **accept url of these properties:- instagram,facebook,twitter,pinterest**. |
 
 <!-- instructors api -->
 
