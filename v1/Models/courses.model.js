@@ -17,18 +17,18 @@ const coursesSchema = mongoose.Schema(
             required: true,
             type: String,
             enum: {
-                values: ["beginner", "intermediate", "expert"],
+                values: ["Beginner", "Intermediate", "Expert"],
                 message:
-                    "{VALUE} isn't valid. please select 'beginner', 'intermediate', or 'expert' ",
+                    "{VALUE} isn't valid. please select 'Beginner', 'Intermediate', or 'Expert' ",
             },
         },
         badge: {
             required: true,
             type: String,
             enum: {
-                values: ["normal", "popular", "top"],
+                values: ["Normal", "Popular", "Top"],
                 message:
-                    "{VALUE} isn't valid. please select 'normal', 'popular', 'top ",
+                    "{VALUE} isn't valid. please select 'Normal', 'Popular', 'Top ",
             },
         },
         duration: {
@@ -74,9 +74,9 @@ const coursesSchema = mongoose.Schema(
             required: true,
             type: String,
             enum: {
-                values: ["design", "development", "learning"],
+                values: ["Design", "Development", "Learning"],
                 message:
-                    "{VALUE} isn't valid. please select 'design', 'development', 'learning ",
+                    "{VALUE} isn't valid. please select 'Design', 'Development', 'Learning ",
             },
         },
         category: {
