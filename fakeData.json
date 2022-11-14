@@ -14,12 +14,10 @@
             "price": 10000,
             "description": "See-through delicate embroidered organza blue lining luxury acetate-mix stretch pleat detailing. Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket.",
             "category": "web development",
+            "category_two": "popular",
             "certificate_details": "Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean and sleek. Polished finish elegant court shoe work duty stretchy slingback strap mid kitten heel this ladylike design slingback strap mid kitten heel this ladylike design.",
             "for_whom": "Anyone interested in learning about business (only practical concepts that you can use and no boring theory + we won’t cover business topics that are common sense).",
-            "video": ["https://youtu.be/6AScfEUU_ME", "https://youtu.be/Q33KBiDriJY"],
-            "createdAt": "2022-11-12T11:22:21.765Z",
-            "updatedAt": "2022-11-12T11:22:21.765Z",
-            "__v": 0
+            "video": ["https://youtu.be/6AScfEUU_ME", "https://youtu.be/Q33KBiDriJY"]
         },
         {
             "rating": {
@@ -35,14 +33,49 @@
             "price": 5000,
             "description": "See-through delicate embroidered organza blue lining luxury acetate-mix stretch pleat detailing. Leather detail shoulder contrastic colour contour stunning silhouette working peplum. Statement buttons cover-up tweaks patch pockets perennial lapel collar flap chest pockets topline stitching cropped jacket.",
             "category": "web_design",
+            "category_two": "normal",
             "certificate_details": "Effortless comfortable full leather lining eye-catching unique detail to the toe low ‘cut-away’ sides clean and sleek. Polished finish elegant court shoe work duty stretchy slingback strap mid kitten heel this ladylike design slingback strap mid kitten heel this ladylike design.",
             "for_whom": "Anyone interested in learning about business (only practical concepts that you can use and no boring theory + we won’t cover business topics that are common sense).",
-            "video": ["https://youtu.be/6AScfEUU_ME", "https://youtu.be/Q33KBiDriJY"],
-            "createdAt": "2022-11-12T11:46:25.568Z",
-            "updatedAt": "2022-11-12T11:46:25.568Z",
-            "__v": 0
+            "video": ["https://youtu.be/6AScfEUU_ME", "https://youtu.be/Q33KBiDriJY"]
         }
     ],
 
-    []
+    [
+        [
+            {
+              "_id": "636c51d1d5a481bacc15b2b7",
+              "name": "Md Abdur Rahman",
+              "email": "jaznanofficial@gmail.com",
+              "img": "https://lh3.googleusercontent.com/a/ALm5wu0xKE3uIxhq2zTBrDJsnzhUvzwU0MflfPZakKasJQ=s96-c",
+              "title": "MERN Stack Instructor",
+              "gender": "male",
+              "phone": "+8801643282147",
+              "professionLevel": "expert",
+              "status": "active",
+              "social_link":{
+                "fb_link":"https://www.facebook.com/jaznan.official/",
+                "github_link":"https://github.com/jaznanofficial/",
+                "linkedin_link":"https://www.linkedin.com/in/jaznanofficial/",
+                "twitter_link":"https://twitter.com/jaznanofficial"
+              }
+            },
+            {
+              "_id": "636c51f191e1784165e41487",
+              "name": "abdullah",
+              "email": "abdullah@gmail.com",
+              "img": "https://i.ibb.co/928v8vp/own.jpg",
+              "title": "Mern Stack Instructor",
+              "gender": "male",
+              "phone": "+8801643282147",
+              "professionLevel": "expert",
+              "status": "active",
+              "social_link":{
+                "fb_link":"https://www.facebook.com/jaznan.official/",
+                "github_link":"https://github.com/jaznanofficial/",
+                "linkedin_link":"https://www.linkedin.com/in/jaznanofficial/",
+                "twitter_link":"https://twitter.com/jaznanofficial"
+              }
+            }
+          ]
+    ]
 ]

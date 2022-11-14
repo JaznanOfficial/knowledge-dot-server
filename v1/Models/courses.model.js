@@ -32,6 +32,15 @@ const coursesSchema = mongoose.Schema(
                     "{VALUE} isn't valid. please select 'beginner', 'intermediate', or 'expert' ",
             },
         },
+        category_two: {
+            required: true,
+            type: String,
+            enum: {
+                values: ["normal", "popular"],
+                message:
+                    "{VALUE} isn't valid. please select 'normal', 'popular' ",
+            },
+        },
         price: {
             required: true,
             type: Number,
